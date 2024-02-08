@@ -1,7 +1,7 @@
 # Конфигурация для Hyprland для Arch Linux и подобных Linux систем
 Дотфайлы и другие конфиги моего Linux окружения на Hyprland с лёгкой установкой с помощью скрипта
 
-[English](https://github.com/kartavkun/my-hyprdots) | [Более понятный русский](README-files/README-YOPTA.md)
+[English](https://github.com/kartavkun/my-hyprdots) | [Более понятный русский](README-files/README_YOPTA.md)
 
 # Зависимости
 - **Оконный менеджер:** [Hyprland](https://hyprland.org)
