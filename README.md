@@ -1,55 +1,70 @@
-# Конфигурация для Hyprland для Arch Linux и подобных Linux систем
-Дотфайлы и другие конфиги моего Linux окружения на Hyprland с лёгкой установкой с помощью скрипта
+# My Hyrpdots for Arch Linux and Arch-based systems
+Dotfiles and a bash script for easier setup of my personal linux environment
 
-[English](https://github.com/kartavkun/my-hyprdots) | [Более понятный русский](README-files/README_YOPTA.md)
+[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/ny-hyprdots-ru)
 
-# Зависимости
-- **Оконный менеджер:** [Hyprland](https://hyprland.org)
+# Screenshots
+![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
+![alt text](https://cdn.discordapp.com/attachments/952914055495024660/1204975467204050944/2024-02-08-070455_hyprshot.png?ex=65d6afda&is=65c43ada&hm=e9787032b9e6e20890773f7e234074e8c1c32158639c0af5d86ad7140e29df57&)
+
+# Dependencies
+- **WM:** [Hyprland](https://hyprland.org)
 - **Top Bar:** [Waybar](https://github.com/Alexays/Waybar)
-- **Терминал:** [kitty](https://github.com/kovidgoyal/kitty)
-- **Уведомления:** [Dunst](https://dunst-project.org)
-- **Лаунчер приложений:** [wofi](https://sr.ht/~scoopta/wofi/)
-- **Оформление(Тема):** [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
-- **Иконки:** [gruvbox-plus-icon-pack] (https://github.com/SylEleuth/gruvbox-plus-icon-pack)
-- **Шрифты:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) и [Commissioner](https://github.com/kosbarts/Commissioner)
-- **Музыкальный стриминговый сервис:** [Spotify](https://spotify.com) с [Spicetify](https://spicetify.app)
-- **Браузер:** [Chromium](https://www.chromium.org/chromium-projects)
-- **Файловый менеджер:** [Nemo](https://github.com/linuxmint/nemo)
-- **Видео плеер:** [mpv](https://mpv.io)
-- **Текстовый редактор:** [Sublime Text 4](https://www.sublimetext.com)
+- **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
+- **Notification Center:** [Dunst](https://dunst-project.org)
+- **Application Launcher:** [wofi](https://sr.ht/~scoopta/wofi/)
+- **Theme:** [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
+- **Icons:** [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
+- **Fonts:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and [Commissioner](https://github.com/kosbarts/Commissioner)
+- **Music Streaming Service:** [Spotify](https://spotify.com) with [Spicetify](https://spicetify.app)
+- **Browser:** [Chromium](https://www.chromium.org/chromium-projects)
+- **File manager:** [Nemo](https://github.com/linuxmint/nemo)
+- **Video player:** [mpv](https://mpv.io)
+- **Text Editor:** [Sublime Text 4](https://www.sublimetext.com)
 
-# Установка
-Пропишите по очереди команды ниже в консоль:
+# Installation
+Run these commands:
 ```
-git clone https://github.com/kartavkun/my-hyprdots-ru
-cd my-hyprdots-ru
+git clone https://github.com/uyak0/dotfiles
+cd dotfiles
 chmod +x installation.sh
 ./installation.sh
 ``` 
 
-# Горячие клавиши
-`SUPER = Кнопка Windows`
-- **Основные:**
+# Binds
+`SUPER = Windows key`
+- **Main binds:**
 ```
-SUPER+Enter - Открыть терминал
-SUPER+Q - Закрыть активное приложение
-SUPER+R - Открыть меню лаунчера приложений
-SUPER+L - Открыть центр завершения работы
-SUPER+F - Открыть браузер
-SUPER+A - Открыть историю буфера обмена
-SUPER+Tab - Смена рабочих столов (1-ый на 2-ой, 2-ой на 3-ий, т.д.) с активным приложением
-SUPER+Shift+Tab - Смена рабочих столов (3-й на 2-ой, 2-ой на 1-ый, т.д.) с активным приложением
-```
-
-- **Скриншоты:**
-```
-PrtSc - Скриншот всего экрана
-SUPER+PrtSc - Скриншот окна
-Shift+PrtSc - Скриншот области
+SUPER+Enter - Open Terminal
+SUPER+Q - Close active program
+SUPER+R - Open Application Launcher menu
+SUPER+L - Open wlogout
+SUPER+F - Open Browser
+SUPER+A - Clipboard history
+SUPER+Tab - Change workspace (1st to 2nd, 2nd to 3rd, etc.) with active program
+SUPER+Shift+Tab - Change workspace (3rd to 2nd, 2nd to 1st, etc.) with active program
 ```
 
-- **Смена языка:** Windows+Space
+- **Screenshot binds:**
+```
+PrtSc - Screenshot whole screen
+SUPER+PrtSc - Screenshot a window
+Shift+PrtSc - Screenshot a region
+```
 
-# Примечания
-- Бинды и другие параметры окружения можете поменять в `hypr/hyprland.conf`. Для новичков в Linux просто напишите эту команду `nano .config/hypr/hyprland.conf`
-- 
+# Notes
+- All shortcuts and bind you can change in `hypr/hyprland.conf`
+- All wallpapers located in `~/.config/hypr`
+- If you haven't wallpaper applied, you need run these commands: 
+`
+killall hyprpaper
+hyprpaper
+`
+Then you see this:
+`
+[WARN] Monitor [your monitor] does not have a target! A wallpaper will not be created.
+`
+After that change config file `~/.config/hypr/hyprpaper`
+`
+wallpaper = monitor1,/path/to/image.png
+`
