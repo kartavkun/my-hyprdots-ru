@@ -1,71 +1,73 @@
-# Мои файлы для Hyprland для Arch Linux и подобных систем
-Дотфайлы вместе со bash скриптом для лёгкой установки
+# Конфигурация Гиперлупы на Арчах
+Все мои конфиги на Hyprland и установкой с помощью скрипта
 
-[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Гоп-язык](/README-YOPTA)
+[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | Гоп-язык
+
 
 # Скриншоты
 ![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
 ![alt text](https://cdn.discordapp.com/attachments/952914055495024660/1204975467204050944/2024-02-08-070455_hyprshot.png?ex=65d6afda&is=65c43ada&hm=e9787032b9e6e20890773f7e234074e8c1c32158639c0af5d86ad7140e29df57&)
 
-# Зависимости
-- **Оконный менеджер:** [Hyprland](https://hyprland.org)
-- **Панель:** [Waybar](https://github.com/Alexays/Waybar)
-- **Терминал:** [kitty](https://github.com/kovidgoyal/kitty)
-- **Центр уведомлений:** [Dunst](https://dunst-project.org)
-- **Лаунчер программ:** [wofi](https://sr.ht/~scoopta/wofi/)
-- **Темы:** [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
-- **Иконки:** [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
-- **Шрифты:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) и [Commissioner](https://github.com/kosbarts/Commissioner)
-- **Музыкальные стриминговый сервис:** [Spotify](https://spotify.com) со [Spicetify](https://spicetify.app)
-- **Браузер:** [Chromium](https://www.chromium.org/chromium-projects)
-- **Файловый менеджер:** [Nemo](https://github.com/linuxmint/nemo)
-- **Видео плеер:** [mpv](https://mpv.io)
-- **Текстовый редактор:** [Sublime Text 4](https://www.sublimetext.com)
-- **Мессенджеры:** [Telegram](https://desktop.telegram.org/) и [Discord](https://discord.com)
+# Основная херня
+- **База:** [Hyprland](https://github.com/hyprwm/Hyprland)
+- **Та хуета сверху:** [Waybar](https://github.com/Alexays/Waybar)
+- **Хакерское окошко:** [kitty](https://github.com/kovidgoyal/kitty)
+- **Notification Center:** [swaync](https://github.com/ErikReider/SwayNotificationCenter)
+- **Запускатор приложух:** [wofi](https://sr.ht/~scoopta/wofi/)
+- **Темка:** [Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) 
+- **Значочки:** [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack)
+- **Буковки:** [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) и [Commissioner](https://github.com/kosbarts/Commissioner)
+- **Музончик:** [Spotify](https://spotify.com) со [Spicetify](https://spicetify.app)
+- **Интернетик:** [Chromium](https://www.chromium.org/chromium-projects)
+- **Файлики:** [Nemo](https://github.com/linuxmint/nemo)
+- **Просмоторщик видосиков:** [mpv](https://mpv.io)
+- **Блокнотик:** [Sublime Text 4](https://www.sublimetext.com)
+- **Общалки:** [Telegram](https://desktop.telegram.org/) и [Discord](https://discord.com)
 
 # Установка
-Run these commands:
+Пиши эти буквовки ниже в терминал:
 ```
 git clone https://github.com/kartavkun/my-hyprdots-ru
-cd my-hyprdots
+cd my-hyprdots-ru
 chmod +x installation.sh
 ./installation.sh
 ``` 
 
 # Бинды
 `SUPER = клавиша Windows`
-- **Основные бинды:**
+- **Биндики:**
 ```
 SUPER+Enter - Открыть терминал
-SUPER+Q - Закрыть активную программу
-SUPER+R - Открыть лаунчер программ
+SUPER+Q - Закрыть активную прогу
+SUPER+R - Открыть запускатор приложух
 SUPER+L - Открыть меню выхода
-SUPER+F - Открыть браузер
+SUPER+F - Открыть интернетик
 SUPER+A - Открыть буфер обмена
-SUPER+Tab - Сменить рабочее пространство (1-ый на 2-ой, 2-ой на 3-ий, т.д.) с активной программой
-SUPER+Shift+Tab - Сменить рабочее пространство (3-ий на 2-ой, 2-ой на 1-ый, т.д.) с активной программой
+SUPER+Tab - Сменить столик (1-ый на 2-ой, 2-ой на 3-ий, т.д.) с активной прогой
+SUPER+Shift+Tab - Сменить столик (3-ий на 2-ой, 2-ой на 1-ый, т.д.) с активной прогой
+SUPER+Пробел - Сменить базар (Английский и русский)
 ```
 
-- **Бинды для скриншотов:**
+- **Бинды для скринов:**
 ```
-PrtSc - Скриншот всего экрана
-SUPER+PrtSc - Скриншот окна
-Shift+PrtSc - Скриншот области
+PrtSc - Скрин всего экрана
+SUPER+PrtSc - Скрин окна
+Shift+PrtSc - Скрин области
 ```
 
 # Уясни нах
-- Все бинды и прочую хуетень меняешь в файле `hypr/hpyrland.conf`
+- Все бинды и прочую хуетень меняешь в файле `hypr/hyprland.conf`
 - Все обои в `~/.config/hypr`
-- Если у вас нет кастомные обои, пишите следующие команды
+- Если у тебя обоев новых нет, пиши следующую хуету в терминал
 `
 killall hyprpaper
 hyprpaper
 `
-Вы увидите:
+Увидишь этот кал:
 `
-[WARN] Monitor [ваш монитор] does not have a target! A wallpaper will not be created.
+[WARN] Monitor [моник] does not have a target! A wallpaper will not be created.
 `
-После поменяйте значение в файле `~/.config/hypr/hyprpaper`
+Потом поменяй буковки в файле `~/.config/hypr/hyprpaper`
 `
-wallpaper = [ваш монитор],/path/to/image.png
+wallpaper = [моник],/path/to/image.png
 `

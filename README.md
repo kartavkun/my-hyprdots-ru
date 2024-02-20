@@ -1,7 +1,7 @@
 # Мои файлы для Hyprland для Arch Linux и подобных систем
 Дотфайлы вместе со bash скриптом для лёгкой установки
 
-[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/my-hyprdots-ru) | [Гоп-язык](/README-YOPTA)
+[English](https://github.com/kartavkun/my-hyprdots) | Русский | [Гоп-язык](https://github.com/kartavkun/my-hyprdots-ru/blob/main/README-YOPTA.md)
 
 # Скриншоты
 ![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
@@ -27,7 +27,7 @@
 Run these commands:
 ```
 git clone https://github.com/kartavkun/my-hyprdots-ru
-cd my-hyprdots
+cd my-hyprdots-ru
 chmod +x installation.sh
 ./installation.sh
 ``` 
@@ -44,6 +44,7 @@ SUPER+F - Открыть браузер
 SUPER+A - Открыть буфер обмена
 SUPER+Tab - Сменить рабочее пространство (1-ый на 2-ой, 2-ой на 3-ий, т.д.) с активной программой
 SUPER+Shift+Tab - Сменить рабочее пространство (3-ий на 2-ой, 2-ой на 1-ый, т.д.) с активной программой
+SUPER+Пробел - Смена языка (Английский и русский)
 ```
 
 - **Бинды для скриншотов:**
