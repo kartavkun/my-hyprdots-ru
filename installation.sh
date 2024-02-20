@@ -5,88 +5,88 @@ CYAN="\e[34m"
 CLEAR="\e[0m"
 
 # Installing yay
-echo -e "$CYAN Installing yay... $CLEAR"
+echo -e "$CYAN Установка yay... $CLEAR"
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
 # Dependecies via pacman
-echo -e "$CYAN Installing dependencies with pacman... $CLEAR"
+echo -e "$CYAN Установка базы через pacman... $CLEAR"
 sudo pacman -S  gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
 
 # Dependecies via yay
-echo -e "$CYAN Installing dependencies with yay...$CLEAR"
+echo -e "$CYAN Установка базы через yay...$CLEAR"
 yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance discord-screenaudio
 
 # .bashrc config
-echo -e "$CYAN .bashrc configuration installing"
+echo -e "$CYAN .bashrc устанавливаеться"
 cp $HOME/my-hyprdots/.bashrc $HOME/
-echo -e "$CYAN .bashrc configuration"
+echo -e "$CYAN .bashrc установлен"
 
 # Kitty config
-echo -e "$CYAN Installing kitty configurations..."    
+echo -e "$CYAN Установка конфига kitty..."    
 cp -r $HOME/my-hyprdots/kitty $HOME/.config/
-echo -e "$CYAN kitty configuration installed!"
+echo -e "$CYAN Конфиг kitty установлен!"
 
 
 # Theme installing
-echo -e "$CYAN Extract the theme"
+echo -e "$CYAN Распаковка темы"
 unzip $HOME/my-hyprdots/Gruvbox-Dark-BL.zip -d $HOME/my-hyprdots/
-echo -e "$CYAN Making themes directory"
+echo -e "$CYAN Создание папок темы"
 mkdir $HOME/.themes
 mkdir $HOME/.themes/Gruvbox-Dark-BL
-echo -e "$CYAN Installing the theme"
+echo -e "$CYAN Установка темы"
 cp -r $HOME/my-hyprdots/Gruvbox-Dark-BL $HOME/.themes/
-echo -e "$CYAN Apply settings"
+echo -e "$CYAN Применение темы"
 cp -r $HOME/my-hyprdots/gtk-3.0 $HOME/.config/
-echo -e "$CYAN Theme installed"
+echo -e "$CYAN Тема установлена!"
 
 # waybar config
-echo -e "$CYAN Installing waybar configurations..."    
+echo -e "$CYAN Установка конфига waybar..."    
 cp -r $HOME/my-hyprdots/waybar $HOME/.config/
-echo -e "$CYAN waybar configuration installed!"
+echo -e "$CYAN Конфиг waybar установлен!"
 
 # Hyprland config
-echo -e "$CYAN hypr config directory already exists, installing hyprland configurations..."
+echo -e "$CYAN Установка конфига hyprland..."
 cp -r $HOME/my-hyprdots/hypr/ $HOME/.config/
-echo -e "$CYAN hyprland configuration installed!"
+echo -e "$CYAN Конфиг hyprland установлен!"
 
 
 # dunst config
-echo -e "$CYAN dunst config directory made! Installing dunst configurations..."    
+echo -e "$CYAN Установка конфига dunst..."    
 cp -r $HOME/my-hyprdots/dunst $HOME/.config/
-echo -e "$CYAN dunst configuration installed!"
+echo -e "$CYAN Конфиг dunst установлен!"
 
 # Kvantum config
-echo -e "$CYAN kvantum config directory already exists, installing kvantum configurations..."
+echo -e "$CYAN Установка конфига Kvantum..."
 cp -r $HOME/my-hyprdots/kvantum $HOME/.config/
-echo -e "$CYAN kvantum configuration installed!"
+echo -e "$CYAN Конфиг Kvantum установлен!"
 
 # neofetch config
-echo -e "$CYAN installing neofetch configurations..."
+echo -e "$CYAN Установка конфига neofetch..."
 cp -r $HOME/my-hyprdots/neofetch $HOME/.config/
-echo -e "$CYAN neofetch configuration installed!"
+echo -e "$CYAN Конфиг neofetch установлен!"
 
 # spicetify config
-echo -e "$CYAN installing spicetify configurations..."
+echo -e "$CYAN Установка конфига spicetify..."
 cp -r $HOME/my-hyprdots/spicetify $HOME/.config/
-echo -e "$CYAN spicetify configuration installed!"
+echo -e "$CYAN Конфиг spicetify установлен!"
 
 
 # wofi config
-echo -e "$CYAN installing wofi configurations..."
+echo -e "$CYAN Установка конфига wofi..."
 cp -r $HOME/my-hyprdots/wofi $HOME/.config/
-echo -e "$CYAN wofi configuration installed!"
+echo -e "$CYAN Конфиг wofi установлен!"
 
 # wlogout config
-echo -e "$CYAN installing wlogout configurations..."
+echo -e "$CYAN Установка конфига wlogout..."
 cp -r $HOME/my-hyprdots/wlogout $HOME/.config/
-echo -e "$CYAN wlogout configuration installed!"
+echo -e "$CYAN Конфиг wlogout установлен!"
 
 
 # swaylock config
-echo -e "$CYAN installing swaylock configurations..."
+echo -e "$CYAN Установка конфига swaylock..."
 cp -r $HOME/my-hyprdots/swaylock $HOME/.config/
-echo -e "$CYAN swaylock configuration installed!"
+echo -e "$CYAN Конфиг swaylock установлен!"
 

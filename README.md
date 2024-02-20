@@ -7,7 +7,7 @@
 ![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
 ![alt text](https://cdn.discordapp.com/attachments/952914055495024660/1204975467204050944/2024-02-08-070455_hyprshot.png?ex=65d6afda&is=65c43ada&hm=e9787032b9e6e20890773f7e234074e8c1c32158639c0af5d86ad7140e29df57&)
 
-# Зависимости
+# База
 - **Оконный менеджер:** [Hyprland](https://hyprland.org)
 - **Панель:** [Waybar](https://github.com/Alexays/Waybar)
 - **Терминал:** [kitty](https://github.com/kovidgoyal/kitty)
