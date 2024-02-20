@@ -1,7 +1,7 @@
 # My Hyrpdots for Arch Linux and Arch-based systems
 Dotfiles and a bash script for easier setup of my personal linux environment
 
-[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/ny-hyprdots-ru)
+[English](https://github.com/kartavkun/my-hyprdots) | [Русский](https://github.com/kartavkun/my-hyprdots-ru)
 
 # Screenshots
 ![alt](https://cdn.discordapp.com/attachments/952914055495024660/1204975467669495858/2024-02-08-070518_hyprshot.png?ex=65d6afda&is=65c43ada&hm=6c04cd78545b603b1b7ee33233b0f4afa6ef7387f62346b454f887ffae15bd54&)
@@ -21,12 +21,13 @@ Dotfiles and a bash script for easier setup of my personal linux environment
 - **File manager:** [Nemo](https://github.com/linuxmint/nemo)
 - **Video player:** [mpv](https://mpv.io)
 - **Text Editor:** [Sublime Text 4](https://www.sublimetext.com)
+- **Messenger:** [Telegram](https://desktop.telegram.org/) and [Discord](https://discord.com)
 
 # Installation
 Run these commands:
 ```
-git clone https://github.com/uyak0/dotfiles
-cd dotfiles
+git clone https://github.com/kartavkun/my-hyprdots
+cd my-hyprdots
 chmod +x installation.sh
 ./installation.sh
 ``` 
@@ -53,7 +54,7 @@ Shift+PrtSc - Screenshot a region
 ```
 
 # Notes
-- All shortcuts and bind you can change in `hypr/hyprland.conf`
+- All shortcuts and bind you can change in `~/.config/hypr/hyprland.conf`
 - All wallpapers located in `~/.config/hypr`
 - If you haven't wallpaper applied, you need run these commands: 
 `
@@ -66,5 +67,5 @@ Then you see this:
 `
 After that change config file `~/.config/hypr/hyprpaper`
 `
-wallpaper = monitor1,/path/to/image.png
+wallpaper = [your monitor],/path/to/image.png
 `
