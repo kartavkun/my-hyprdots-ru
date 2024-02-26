@@ -71,6 +71,7 @@ echo -e "$CYAN Конфиг neofetch установлен!"
 # spicetify config
 echo -e "$CYAN Установка конфига spicetify..."
 cp -r $HOME/my-hyprdots-ru/spicetify $HOME/.config/
+spicetify backup apply
 echo -e "$CYAN Конфиг spicetify установлен!"
 
 
