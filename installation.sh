@@ -11,13 +11,9 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-# Dependecies via pacman
-echo -e "$CYAN Установка базы через pacman... $CLEAR"
-sudo pacman -S  gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
-
 # Dependecies via yay
-echo -e "$CYAN Установка базы через yay...$CLEAR"
-yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance discord-screenaudio
+echo -e "$CYAN Установка зависимостей...$CLEAR"
+yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance discord-screenaudio gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
 
 # .bashrc config
 echo -e "$CYAN .bashrc устанавливаеться"
