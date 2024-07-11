@@ -13,7 +13,7 @@ makepkg -si
 
 # Dependecies via yay
 echo -e "$CYAN Установка зависимостей...$CLEAR"
-yay -S wofi waybar kitty pfetch spotify spicetify-cli swaylock wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance discord-screenaudio gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
+yay -S wofi waybar kitty pfetch spotify spicetify-cli wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance vesktop pamixer gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
 
 # .bashrc config
 echo -e "$CYAN .bashrc устанавливаеться"
@@ -24,7 +24,6 @@ echo -e "$CYAN .bashrc установлен"
 echo -e "$CYAN Установка конфига kitty..."    
 cp -r $HOME/my-hyprdots-ru/kitty $HOME/.config/
 echo -e "$CYAN Конфиг kitty установлен!"
-
 
 # Theme installing
 echo -e "$CYAN Распаковка темы"
@@ -48,7 +47,6 @@ echo -e "$CYAN Установка конфига hyprland..."
 cp -r $HOME/my-hyprdots-ru/hypr/ $HOME/.config/
 echo -e "$CYAN Конфиг hyprland установлен!"
 
-
 # dunst config
 echo -e "$CYAN Установка конфига dunst..."    
 cp -r $HOME/my-hyprdots-ru/dunst $HOME/.config/
@@ -67,9 +65,10 @@ echo -e "$CYAN Конфиг neofetch установлен!"
 # spicetify config
 echo -e "$CYAN Установка конфига spicetify..."
 cp -r $HOME/my-hyprdots-ru/spicetify $HOME/.config/
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
 spicetify backup apply
 echo -e "$CYAN Конфиг spicetify установлен!"
-
 
 # wofi config
 echo -e "$CYAN Установка конфига wofi..."
