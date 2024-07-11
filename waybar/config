@@ -74,7 +74,8 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{: %R   %d/%m}",
+        "interval": 60,
+        "format": " {:%H:%M  %d/%m}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>"
     },
     "backlight": {
