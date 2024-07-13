@@ -93,9 +93,7 @@ tooltip {
 #custom-weather,
 #window,
 #clock,
-#battery,
 #pulseaudio,
-#network,
 #workspaces,
 #tray,
 #backlight {
@@ -135,14 +133,11 @@ tooltip {
 
 #language {
     background: #282828;
-    color: #ebdbb2;
+    border-radius: 10px;
     border-width: 3px;
     border-style: solid;
-    border-color: #ebdbb2;
-    border-radius: 10px 0px 0px 10px;
-    margin-left: 6px;
-    border-right: 0px;
-    min-width: 24px;
+    border-color: #ebdbb2; 
+    margin-right: 8px;
 }
 
 #custom-updates {
@@ -176,12 +171,6 @@ tooltip {
     margin-right: 6px;
 }
 
-#network {
-    color: #ebdbb2;
-    border-left: 0px;
-    border-right: 0px;
-}
-
 #pulseaudio {
     background: #282828;
     color: #ebdbb2;
@@ -194,17 +183,6 @@ tooltip {
 }
 
 #pulseaudio.microphone {
-    background: #282828;
-    color: #ebdbb2;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #ebdbb2;
-    border-radius: 0px 10px 10px 0px;
-    border-left: 0px;
-    margin-right: 6px;
-}
-
-#battery {
     background: #282828;
     color: #ebdbb2;
     border-width: 3px;
