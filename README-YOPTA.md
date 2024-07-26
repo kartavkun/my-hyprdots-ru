@@ -25,7 +25,7 @@
 - **Общалки:** [Telegram](https://desktop.telegram.org/) и [Discord](https://discord.com)
 
 # Установка
-Пиши эти буквовки ниже в терминал:
+Пиши этот базар в терминал:
 ```
 git clone https://github.com/kartavkun/my-hyprdots-ru
 cd my-hyprdots-ru
