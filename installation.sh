@@ -13,7 +13,7 @@ makepkg -si
 
 # Dependecies via yay
 echo -e "$CYAN Установка зависимостей...$CLEAR"
-yay -S wofi waybar kitty pfetch spotify spicetify-cli wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance vesktop pamixer gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
+yay -S wofi waybar kitty cliphist pfetch spotify spicetify-cli wlogout sublime-text-4 ttf-commissioner gruvbox-plus-icon-theme-git lxappearance vesktop pamixer gtk3 unzip dunst kvantum hyprpaper neofetch chromium mpv nemo nerd-fonts polkit-kde-agent pavucontrol telegram-desktop
 
 # .bashrc config
 echo -e "$CYAN .bashrc устанавливаеться"
