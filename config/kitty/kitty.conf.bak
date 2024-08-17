@@ -1,0 +1,8 @@
+font_family      Liberation Mono
+bold_font        Liberation Mono Bold
+italic_font      Liberation Mono Italic
+bold_italic_font Liberation Mono Bold Italic
+font_size 11.0
+
+cursor_shape beam
+background_opacity 0.5
