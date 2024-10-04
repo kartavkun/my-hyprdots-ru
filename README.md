@@ -1,9 +1,11 @@
-# Мои файлы для Hyprland для Arch Linux и подобных систем
-Дотфайлы вместе со bash скриптом для лёгкой установки
-
 # These dotfiles are not up to date. Current [here](https://github.com/kartavkun/my-hyprdots) 
 
 # Эти дотфайлы не актуальны. Актуальные [тут](https://github.com/kartavkun/my-hyprdots) 
+
+# ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ 
+
+# Мои файлы для Hyprland для Arch Linux и подобных систем
+Дотфайлы вместе со bash скриптом для лёгкой установки
 
 [English](https://github.com/kartavkun/my-hyprdots) | Русский | [Гоп-язык](https://github.com/kartavkun/my-hyprdots-ru/blob/main/README-YOPTA.md)
 
